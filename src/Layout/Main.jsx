@@ -3,9 +3,11 @@ import Header from "../Components/Header/Header";
 
 const Main = () => {
     return (
-        <div>
-            <Header></Header>
-            <Outlet></Outlet>
+        <div className="flex justify-center h-[80vh] items-center">
+            <div>
+                <Header></Header>
+                <Outlet></Outlet>
+            </div>
         </div>
     );
 };
